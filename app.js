@@ -10,11 +10,11 @@
 //alert(msg);'''
 
 var btnTranslate = document.querySelector("#btn-translate");
-
-btnTranslate.addEventListener("click", clickEventHandler())
-
-function clickEvenHandler ()
+function clickEventHandler ()
 {
     console.log("clicked");
 
 };
+
+btnTranslate.addEventListener("click", clickEventHandler)
+
