@@ -11,11 +11,16 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector('#txt-input');
+var outputDiv = document.querySelector('#output');
+
+//outputDiv.innerText = "Prachi"  // this is for inline
+console.log (outputDiv);   //taking from function outputDiv
+
 function clickEventHandler ()
 {
     console.log("clicked");
     console.log("input", txtInput.value)
-
+ 
 };
 
 btnTranslate.addEventListener("click", clickEventHandler)
