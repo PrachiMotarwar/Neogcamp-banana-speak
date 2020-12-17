@@ -13,15 +13,14 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector('#txt-input');
 var outputDiv = document.querySelector('#output');
 
-//outputDiv.innerText = "Prachi"  // this is for inline
-console.log (outputDiv);   //taking from function outputDiv
+//outputDiv.innerText = "Prachi"  // this is for inline and to show o/p in box
+//console.log (outputDiv);   //taking from function outputDiv
 
-function clickEventHandler ()
+function clickeventHandler ()
 {
-    console.log("clicked");
-    console.log("input", txtInput.value)
+    outputDiv.innerText = "ddhjklj" + txtInput.value;
  
 };
 
-btnTranslate.addEventListener("click", clickEventHandler)
+btnTranslate.addEventListener("click", clickeventHandler)
 
